@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Get all upcoming bookings",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "bookings": "array"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Get bookings for specific client",
+      "method": "GET",
+      "path": "/?client_id=1",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "bookings": "array"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
