@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Получение доступных слотов",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {
+        "slots": "array"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

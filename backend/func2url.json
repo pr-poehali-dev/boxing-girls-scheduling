@@ -1,4 +1,7 @@
 {
+  "profile": "https://functions.poehali.dev/61beaa1b-357f-4c75-932e-050bb5fa6df9",
+  "slots": "https://functions.poehali.dev/3935a8ee-919a-4db2-b449-5ad00058014c",
+  "auth": "https://functions.poehali.dev/3dae3686-06bb-4511-9bf2-095a2ddf3c6e",
   "clients": "https://functions.poehali.dev/e3363a47-81f5-4c02-95eb-c042f77c08df",
   "bookings": "https://functions.poehali.dev/8dc5cb8b-3bb0-4eff-9493-2bd47e21a69e"
 }

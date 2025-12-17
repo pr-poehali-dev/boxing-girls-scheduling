@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Получение профиля без токена",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 401,
+      "expectedBody": {
+        "error": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
